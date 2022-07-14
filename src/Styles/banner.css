@@ -1,0 +1,170 @@
+.banner 
+{
+    width: 100vw;
+    height: 65vh;
+    
+    background: linear-gradient(to bottom, #ecf5ff, #c7dffe, #c4dcfa, #bbd7fc, #8abafb);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 4rem;
+    
+
+}
+
+
+
+.banner-content {
+    display: flex;
+    
+    width: 55rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner-content  h3 
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.demo {
+    width: 35rem;
+     border-radius: 50%;
+     height: 35rem;
+     padding-bottom: 7rem;
+}
+
+.card-body {
+    background: transparent;
+}
+
+/* Media Querry for 360px */
+
+
+@media screen and (min-width:300px)
+{
+      .banner 
+      {
+        background-color: red;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        gap: 1.2rem;
+
+      }
+
+      .banner h3 {
+        font-size: 1.5rem;
+      }
+      .banner p {
+        font-size: 1rem;
+      }
+
+      .banner-content{
+        margin-bottom: 2.5rem;
+       
+        width: 18rem;
+        height: 60vh;
+        display: flex;
+        gap: 1.2rem;
+        padding: 1.2rem 0.8rem;
+        
+      }
+
+      .demo {
+        width: 18rem;
+        height: 25rem;
+        margin-top: -3rem;
+        padding: 0 0.3rem;
+      }
+}
+
+
+
+/* for 650 px */
+
+
+@media screen and (min-width:650px)
+{
+      .banner 
+      {
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        gap: 1.2rem;
+        width: 100vw;
+
+
+      }
+
+      .banner h3 {
+        font-size: 1.8rem;
+      }
+      .banner p {
+        font-size: 1rem;
+      }
+
+      .banner-content{
+        margin-bottom: 2.5rem;
+       
+        width: 35rem;
+        height: 65vh;
+        display: flex;
+        gap: 1.2rem;
+        padding: 2rem 0.8rem;
+        
+        
+      }
+
+      .demo {
+       
+        
+       
+      }
+}
+
+
+/* for 1240px */
+
+
+@media screen and (min-width:1240px)
+{
+      
+.banner-content {
+    display: flex;
+    
+    width: 55rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner-content  h3 
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.demo {
+    width: 35rem;
+     border-radius: 50%;
+     height: 35rem;
+     padding-bottom: 7rem;
+}
+}
