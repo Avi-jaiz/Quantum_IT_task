@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/banner.css'
-import {Card,Button,Container, Carousel} from 'react-bootstrap'
+import {Button} from 'react-bootstrap'
 import working_people from '../Files/working_people.jpg'
 
 function Banner() {
