@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container,Card, Button,Row,Col} from 'react-bootstrap';
+import {Container, Button,Row,Col} from 'react-bootstrap';
 import discussion from '../Files/discussion.webp';
 import {MdOutlineConstruction} from 'react-icons/md';
 import {BsSunglasses} from 'react-icons/bs';

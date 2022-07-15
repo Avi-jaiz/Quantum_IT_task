@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/services.css';
-import {Container,Row,Col, Button} from 'react-bootstrap';
+import {Container, Button} from 'react-bootstrap';
 import {RiMoneyDollarBoxLine} from 'react-icons/ri'
 import {HiSpeakerphone}  from 'react-icons/hi';
 import {BsPeopleFill} from 'react-icons/bs'
