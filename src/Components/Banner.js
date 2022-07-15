@@ -22,6 +22,7 @@ function Banner() {
 
 </div>
 <img src ={working_people} alt='work' className='demo' />
+
  </div>
 
    

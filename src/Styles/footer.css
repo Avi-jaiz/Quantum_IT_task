@@ -1,0 +1,159 @@
+
+
+
+.footer 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+     background-image:
+     linear-gradient(45deg,
+       rgba(52, 36, 147, 0.75),
+       rgba(22, 47, 160, 0.75)), url(
+'https://freepngimg.com/thumb/business/6-2-business-free-png-image.png');
+justify-content: center;
+align-items: center;
+gap: 8rem;
+
+
+
+}
+
+
+.newsletter 
+{
+    display: flex;
+    flex-direction: column;
+   
+    width: 35rem;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-area 
+{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+.subscribe-btn
+{
+    width: 8rem;
+}
+
+
+
+/*    Media Querry */
+
+
+
+@media screen and (min-width:300px)
+{
+      .footer 
+      {
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .newsletter 
+      {
+        display: flex;
+        
+        width: 15rem;
+        height: 25rem;
+        gap: 1.2rem;
+        padding: 1.2rem 0.2rem;
+      }
+
+      .input-area 
+      {
+        width: 15rem;
+        padding: 1rem 0rem;
+      }
+
+
+}
+
+
+
+/* for 650 px */
+
+
+@media screen and (min-width:650px)
+{
+    .footer 
+    {
+      height: 55vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .newsletter 
+    {
+      display: flex;
+      
+      width: 15rem;
+      height: 25rem;
+      gap: 1rem;
+      padding: 1.2rem 0.2rem;
+     
+    }
+
+    .input-area 
+    {
+      width: 15rem;
+      padding: 1rem 0rem;
+      position: relative;
+      top: -5rem;
+    }
+}
+
+
+/* for 1240px */
+
+
+@media screen and (min-width:1240px)
+{
+     .footer 
+     {
+         display: flex;
+         flex-direction: row;
+         width: 100vw;
+         height: 50vh;
+         justify-content: center;
+         align-items: center;
+
+    
+     }
+     
+     
+     .newsletter 
+     {
+         display: flex;
+         flex-direction: column;
+        
+         width: 35rem;
+         height: 15rem;
+         justify-content: center;
+         align-items: center;
+     
+     }
+     
+     .input-area 
+     {
+         display: flex;
+         flex-direction: column;
+         width: 25rem;
+     }
+     .subscribe-btn
+     {
+         width: 8rem;
+     }
+}
